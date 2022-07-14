@@ -1,9 +1,5 @@
 clusterPatches:
 - target:
     kind: Cluster
-    name: cluster
+    name: abhishek-kind
   kustomizePatch: ./kustomize/
-- target:
-     kind: Cluster
-     name: cluster2
-  kustomizePatch: ./kustomize2/
