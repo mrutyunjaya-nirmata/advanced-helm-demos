@@ -1,13 +1,9 @@
 clusterPatches:
 - target:
     kind: Cluster
-    name: cluster-001
-    labelSelector:
-        cluster-name: "foo"
+    name: cluster
   kustomizePatch: ./kustomize/
 - target:
      kind: Cluster
-     name: cluster-002
-     labelSelector:
-        cluster-name: "bar"
-  kustomizePatch: ./cluster-002/
+     name: cluster2
+  kustomizePatch: ./kustomize2/
